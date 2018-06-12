@@ -1,0 +1,192 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Feel free to contact us with any question.">
+	<link rel="icon" href="images/icon.png" size="16x16">
+	<meta name="keywords" content="">
+	<title>allena's coffee</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+</head>
+<body>
+	<div class="container" id="main">
+		<div class="navbar navbar-fixed-top" id="nav">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button" id="button-navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="Logo"></a>
+				
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">About<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-header">allena's coffee</li>
+								<li>
+									<a href="story.html">Our Story</a>
+								</li>
+								<li>
+									<a href="https://en.wikipedia.org/wiki/Coffee" target="_blank">Coffee</a>
+								</li>
+								<li class="divider"></li>
+							</ul> <!-- end dropdown -->
+						</li>
+						<li>
+							<a href="gallery.html">Gallery</a>
+						</li>
+						<li class="active">
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul> <!-- end nav -->
+					<!-- 
+					<form class="navbar-form pull-right" method="POST">
+						<input type="text" class="form-control" placeholder="Search this site..." id="searchInput"  >
+						<button type="submit" class="btn btn-default" id="button"><span class="glyphicon glyphicon-search"></span></button>
+					</form> -->
+				</div> <!-- end collapse -->				
+			</div> <!-- end container -->
+		</div> <!-- end navbar -->
+
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-6" id="content-location">				
+
+				<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+
+				<div class="row">
+
+					<div id="office" class="col-sm-6">	
+						<h3>Our Office</h3>
+						<h5>Address</h5>
+						<p>Allena's Coffee</p>
+						<p>476 9th St.</p> 
+						<p>Oakland, CA 94607</p>
+						<h5>Office phone</h5>
+						<p>(510) 653-3394</p>
+					</div>
+
+					<div id="web" class="col-sm-6">
+						<h3>Web Support</h3>
+						<h5>Write us an email</h5>
+						<p>
+							<a href="">support@allena'scoffee.com</a>
+						</p>
+						<h5>Leave us a message</h5>
+						<p>
+							<a href="">(510) 653-3394</a>
+						</p>
+					</div>
+
+				</div>
+
+			</div><!-- end col-sm-6 -->
+
+			<div class="col-sm-6" id="form">
+				<div id="form-area">
+					<h3>Get in Touch</h3>
+					<hr class="line">
+					<form action="#" method="post" class="contact-form">
+						<div class="form-group">
+							<label for="name" class="mat-label" name="name">Name<span class="red"><abbr title="required">*</span></label>
+								<input type="text" class="form-control" id="name">
+							</div> <!-- end form-group -->
+
+							<div class="form-group">
+								<label for="email" class="mat-label" name="email">Email<span class="red"><abbr title="required">*</span></label>
+									<input type="email" class="form-control" id="email">
+								</div> <!-- end form-group -->
+
+								<div class="form-group">
+									<label for="subject" class="mat-label" name="subject">Subject<span class="blue"><abbr title="not required">*</span></label>
+										<select name="contact_message" id="subject" class="form-control">
+											<option value="1"></option>
+											<option value="General Question">General Question</option>
+											<option value="Online Order">Online Order</option>
+											<option value="Event Inquiry">Event Inquiry</option>
+											<option value="Press Inquiry">Press Inquiry</option>
+											<option value="Cafe Experience">Cafe Experience</option>
+											<option value="Nonprofit Partner">Nonprofit Partner</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label for="message" class="mat-label">Message<span class="red"><abbr title="required">*</span></label>
+											<textarea name="message" id="message" cols="43" rows="3" class="form-control"></textarea>
+										</div>
+										<button type="button" id="send" name="submit" class="btn btn-primary">Send</button>
+									</form>
+								</div> <!-- end form-group -->
+
+
+								
+
+							</div> <!-- end col-sm-6 -->
+						</div><!-- end row -->
+
+
+					</div> <!-- end main container -->	
+
+					<div class="footer">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-4 col-12" id="icons">
+									<a href="https://www.facebook.com/" target="_blank">
+										<img src="images/facebook.png" alt="Facebook" class="photo">
+									</a>
+									<a href="https://www.instagram.com/" target="_blank">
+										<img src="images/instagram.png" alt="Instagram" class="photo">
+									</a>
+									<a href="https://twitter.com/" target="_blank">
+										<img src="images/twitter.png" alt="twitter" class="photo">
+									</a>
+								</div>
+
+								<div class="col-sm-4 col-12" id="copy">
+									<h6>&copy;2017 <a href="https://www.linkedin.com/in/david-popovic-b028ba108/" target="_blank">David Popovic</a><img src="images/logo.png" alt="Logo"></a>  |<a a href="https://accounts.google.com/ServiceLogin/signinchooser?hl=sr&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"> say hello</h6></a>
+								</div>	
+
+								
+							</div> <!-- end row -->
+
+						</div> <!-- end container -->
+					</div> <!-- end footer --> 
+
+
+
+
+					<!-- All Javascript at the bottom of the page for faster page loading -->
+
+					<!-- First try for the online version of jQuery-->
+					<script src="http://code.jquery.com/jquery.js"></script>
+
+					<!-- If no online access, fallback to our hardcoded version of jQuery -->
+					<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+					<!-- Bootstrap JS -->
+					<script src="bootstrap/js/bootstrap.min.js"></script>
+
+					<!-- Custom JS -->
+					<script src="includes/js/main.js"></script>
+				</body>
+				</html>
